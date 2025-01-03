@@ -23,6 +23,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: false,
+  output: 'export',
   images: {
     remotePatterns: [
       {
