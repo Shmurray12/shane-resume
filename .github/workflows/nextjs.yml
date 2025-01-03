@@ -50,10 +50,10 @@ jobs:
         run: 'yarn install'
 
       - name: Build with Next.js
-        run: 'npm next build'
+        run: 'npx next build'
 
       - name: npm export
-        run: 'npm next export'
+        run: 'npx next export'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
