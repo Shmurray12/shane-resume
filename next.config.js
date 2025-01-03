@@ -24,6 +24,8 @@ const nextConfig = {
   swcMinify: true,
   trailingSlash: false,
   output: 'export',
+  basePath: '/shane-resume',
+  assetPrefix: '/shane-resume/',
   images: {
     remotePatterns: [
       {
