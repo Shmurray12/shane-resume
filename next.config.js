@@ -23,6 +23,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: false,
+  output: 'export',
   images: {
     remotePatterns: [
       {
@@ -33,6 +34,7 @@ const nextConfig = {
         hostname: 'source.unsplash.com',
       },
     ],
+    unoptimized: true,
   },
 };
 
