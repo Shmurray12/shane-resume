@@ -11,20 +11,20 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+//import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+//import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+//import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+//import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+//import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+//import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+//import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+//import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+//import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+//import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -80,9 +80,9 @@ export const heroData: Hero = {
         <strong className="text-stone-100">Cybersecurity</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I love to play <strong className="text-stone-100">Basketball, Rock climb</strong>, play{' '}
-        <strong className="text-stone-100">videogames</strong>, or go on{' '}
-        <strong className="text-stone-100">Hikes</strong> wherever I can find them.
+        In my free time time, I love to play <strong className="text-stone-100">Basketball, Rock climb</strong>, go to
+        the <strong className="text-stone-100">gym</strong>, or go on <strong className="text-stone-100">hikes</strong>{' '}
+        wherever I can find them.
       </p>
     </>
   ),
@@ -106,9 +106,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Since my first coding class in middle school, I've always had a passion for computer science and problem solving. 
+  I have a strong desire to learn and improve my abilities, and I'm happy to take on a challenge that involves picking up new skills.
+  I'm very capable in a group setting, and have no issues taking a leadership position to help take on the task at hand.`,
   aboutItems: [
     {label: 'Location', text: 'Wellesley, MA', Icon: MapIcon},
     {label: 'Age', text: '21', Icon: CalendarIcon},
@@ -132,7 +132,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 2,
       },
     ],
   },
@@ -192,7 +192,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://devpost.com/software/carbon-6785gb',
     image: porfolioImage1,
   },
-  {
+  /*{
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
@@ -251,7 +251,8 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage11,
-  },
+  }, 
+  */
 ];
 
 /**
@@ -274,24 +275,14 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'November 2023',
+    location: 'Santa Clara University',
+    title: 'INRIX Hackathon 2023',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Worked with a team of 5 other students to create an app that aimed to gamify eco-friendliness. With only 24
+        hours to complete our task, we had to delegate roles and work as a coherent team to accomplish our goals. We
+        placed in the top 25% of teams and received an honorable mention.
       </p>
     ),
   },
@@ -331,23 +322,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'shanemurray2004@gmail.com',
+      href: 'mailto:shanemurray2004@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Wellesley, MA',
+      href: 'https://www.google.ca/maps/place/Wellesley,+MA/@42.3102769,-71.2958863,14.39z',
     },
     {
       type: ContactType.Instagram,
       text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/shanemurray_12/',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/Shmurray12',
     },
   ],
 };
@@ -356,9 +347,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Shmurray12'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/shane--murray/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/shanemurray_12/'},
 ];
