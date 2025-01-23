@@ -73,14 +73,15 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Massachussets based{' '}
-        <strong className="text-stone-100">Computer Science Student at Santa Clara University</strong>, currently
-        working at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first,
-        domain registrar and site builder.
+        I'm a Massachussets based, third year at <strong className="text-stone-100">Santa Clara University</strong>,
+        looking to further my abilities as a <strong className="text-stone-100">Software Developer</strong>
+        and <strong className="text-stone-100">Cybersecurity Engineer</strong> by pursuing a{' '}
+        <strong className="text-stone-100">bachelors in Computer Science</strong> with an emphasis on{' '}
+        <strong className="text-stone-100">Cybersecurity</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I love to play <strong className="text-stone-100">Basketball, Rock climb,</strong>, play{' '}
-        <strong className="text-stone-100">videogames</strong>, or go on beatiful{' '}
+        In my free time time, I love to play <strong className="text-stone-100">Basketball, Rock climb</strong>, play{' '}
+        <strong className="text-stone-100">videogames</strong>, or go on{' '}
         <strong className="text-stone-100">Hikes</strong> wherever I can find them.
       </p>
     </>
@@ -109,12 +110,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Wellesley, MA', Icon: MapIcon},
+    {label: 'Age', text: '21', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Irish / American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Basketball, Climbing, Hiking, Working out, Music', Icon: SparklesIcon},
+    {label: 'Study', text: 'Santa Clara University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Full Time Student', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -130,10 +131,6 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
         name: 'Spanish',
         level: 3,
       },
@@ -144,15 +141,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
         level: 6,
+      },
+      {
+        name: 'Flutter',
+        level: 5,
       },
     ],
   },
@@ -160,15 +153,15 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Python',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'C++',
+        level: 6,
       },
       {
-        name: 'Golang',
+        name: 'Javascript',
         level: 4,
       },
     ],
@@ -178,15 +171,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 6,
       },
       {
         name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        level: 5,
       },
     ],
   },
@@ -197,9 +186,10 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Carbon',
+    description:
+      'During the INRIX 2023 hackathon, myself and a few others created an app that aimed to gamify eco-friendliness.',
+    url: 'https://devpost.com/software/carbon-6785gb',
     image: porfolioImage1,
   },
   {
@@ -269,16 +259,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2022 - (expected) June 2026',
+    location: 'Santa Clara University',
+    title: 'Bachelors in Computer Science',
+    content: (
+      <p>
+        At Santa Clara, I have been enrolled in rigorous courses covering a variety of topics within computer science.
+        I've taken upper-division classes in networks and automata. Alongside this I've taken lower level courses
+        covering object oriented programming, data structures, and advanced programming.
+      </p>
+    ),
   },
 ];
 
