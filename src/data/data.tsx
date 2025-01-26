@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Shane Murray Resume Website',
+  description: 'Built with React',
 };
 
 /**
@@ -74,7 +74,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Massachussets based, third year at <strong className="text-stone-100">Santa Clara University</strong>,
-        looking to further my abilities as a <strong className="text-stone-100">Software Developer</strong>
+        looking to further my abilities as a <strong className="text-stone-100">Software Developer </strong>
         and <strong className="text-stone-100">Cybersecurity Engineer</strong> by pursuing a{' '}
         <strong className="text-stone-100">bachelors in Computer Science</strong> with an emphasis on{' '}
         <strong className="text-stone-100">Cybersecurity</strong>.
@@ -88,7 +88,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '../public/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
