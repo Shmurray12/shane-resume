@@ -68,7 +68,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  * Hero section
  */
 export const heroData: Hero = {
-  imageSrc: heroImage,
+  imageSrc: porfolioImage1,
   name: `I'm Shane Murray`,
   description: (
     <>
