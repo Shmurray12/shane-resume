@@ -7,13 +7,13 @@ import {
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
+//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
+import heroImage from 'src/images/headerBackground.jpg';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-//import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from 'src/images/headerBackground.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 //import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 //import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
