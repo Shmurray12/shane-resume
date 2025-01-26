@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
-//import heroImage from 'src/images/headerBackground.jpg';
+import heroImage from 'src/images/headerBackground.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 //import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 //import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -68,7 +68,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  * Hero section
  */
 export const heroData: Hero = {
-  imageSrc: porfolioImage1,
+  imageSrc: heroImage,
   name: `I'm Shane Murray`,
   description: (
     <>
