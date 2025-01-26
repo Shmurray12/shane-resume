@@ -19,11 +19,6 @@ const Footer: FC = memo(() => (
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
       </div>
-      <a
-        className="-m-2 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
-        href="https://reactresume.com">
-        <BoltIcon className="h-5 w-5 text-yellow" />
-      </a>
       <span className="text-sm text-neutral-700">Last Updated: {currentYear}</span>
     </div>
   </div>

@@ -27,6 +27,7 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 //import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+
 import {
   About,
   ContactSection,
