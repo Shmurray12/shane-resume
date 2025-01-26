@@ -37,6 +37,24 @@ jobs:
         with:
           node-version: 'v22.12.0'
 
+      # 1) Cache node_modules / npm cache
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      # 2) Cache Next.js build artifacts
+      - name: Cache Next.js
+        uses: actions/cache@v3
+        with:
+          path: .next/cache
+          key: ${{ runner.os }}-next-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-next-
+
       - name: Setup Yarn
         run: 'npm install yarn'
 
