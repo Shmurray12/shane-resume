@@ -188,7 +188,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Carbon',
     description:
-      'During the INRIX 2023 hackathon, myself and a few others created an app that aimed to gamify eco-friendliness.',
+      'During the INRIX 2023 hackathon, myself and a group of peers created an app that aimed to gamify eco-friendliness.',
     url: 'https://devpost.com/software/carbon-6785gb',
     image: porfolioImage1,
   },
@@ -198,7 +198,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
-  {
+  /*{
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
@@ -332,12 +332,12 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
+      text: '@shanemurray_12',
       href: 'https://www.instagram.com/shanemurray_12/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'Shmurray12',
       href: 'https://github.com/Shmurray12',
     },
   ],
