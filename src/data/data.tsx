@@ -44,7 +44,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Shane Murray Resume Website',
+  title: "Shane Murray's Resume Website",
   description: 'Built with React',
 };
 
@@ -89,15 +89,16 @@ export const heroData: Hero = {
   actions: [
     {
       href: 'resume.pdf',
-      download: true,
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
+      target: '_blank',
     },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
+      target: '_self',
     },
   ],
 };
