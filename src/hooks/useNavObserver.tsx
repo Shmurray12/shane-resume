@@ -3,7 +3,7 @@ import {useEffect} from 'react';
 import {headerID} from '../components/Sections/Header';
 import {SectionId} from '../data/data';
 
-export const useNavObserver = (handler: (section: SectionId | null) => void) => {
+export const useNavObserver = (selectors: string, handler: (section: SectionId | null) => void) => {
   useEffect(() => {
     // Get all sections
     const headings = document.querySelectorAll('#about, #resume, #portfolio, #contact');
