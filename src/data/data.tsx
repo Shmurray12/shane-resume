@@ -89,10 +89,10 @@ export const heroData: Hero = {
   actions: [
     {
       href: 'https://shmurray12.github.io/shane-resume/resume.pdf',
+      target: '_blank',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-      target: '_blank',
     },
     {
       href: `#${SectionId.Contact}`,
