@@ -26,7 +26,7 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 //import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 //import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+//import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -36,7 +36,7 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  TestimonialSection,
+  //TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -293,6 +293,7 @@ export const experience: TimelineItem[] = [
 /**
  * Testimonial section
  */
+/*
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
@@ -313,6 +314,7 @@ export const testimonial: TestimonialSection = {
     },
   ],
 };
+*/
 
 /**
  * Contact section

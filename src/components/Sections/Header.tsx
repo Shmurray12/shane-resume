@@ -18,7 +18,7 @@ const Header: FC = memo(() => {
     section && setCurrentSection(section);
   }, []);
 
-  useNavObserver(navSections.map(section => `#${section}`).join(','), intersectionHandler);
+  useNavObserver(navSections.map(section => `/#${section}`).join(','), intersectionHandler);
 
   return (
     <>
