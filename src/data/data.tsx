@@ -88,11 +88,11 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/resume.pdf',
+      href: 'shane-resume/resume.pdf',
+      download: true,
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-      download: true,
     },
     {
       href: `#${SectionId.Contact}`,
