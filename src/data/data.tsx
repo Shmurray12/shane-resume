@@ -277,6 +277,19 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'January 2025 - Present',
+    location: 'Santa Clara University',
+    title: 'Standards Director at Zeta Beta Tau Fraternity',
+    content: (
+      <p>
+        After serving on the standards board for nearly 2 years, I was selected for the role of Standards Director. In
+        this role, it is my responsibility to hold other brothers of the chapter accountable for their actions, and
+        choose just punishment. I lead the standards board, a group of members that I selected based on their character,
+        and hold meetings in order to ensure that the correct course of action is taken when dealing with misconduct.
+      </p>
+    ),
+  },
+  {
     date: 'November 2023',
     location: 'Santa Clara University',
     title: 'INRIX Hackathon 2023',
