@@ -15,7 +15,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-//import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 //import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 //import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 //import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -194,64 +194,64 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://devpost.com/software/carbon-6785gb',
     image: porfolioImage1,
   },
-  /*{
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+  {
+    title: 'Personal Portfolio Website',
+    description: 'A personal portfolio/resume website built using React with typescript',
+    url: 'https://shmurray12.github.io/shane-resume/',
     image: porfolioImage2,
   },
   /*{
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage11,
   }, 
   */
