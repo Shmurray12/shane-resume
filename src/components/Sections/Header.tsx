@@ -11,8 +11,8 @@ export const headerID = 'headerNav';
 
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
-  //when you add the testimonial section, make sure you add it back to the header.
-  const navSections = useMemo(() => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Contact], []);
+  //when you add the testimonial and contact sections, make sure you add it back to the header.
+  const navSections = useMemo(() => [SectionId.About, SectionId.Resume, SectionId.Portfolio], []);
 
   const intersectionHandler = useCallback((section: SectionId | null) => {
     section && setCurrentSection(section);
