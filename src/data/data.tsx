@@ -110,7 +110,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Since my first coding class in middle school, I've always had a passion for computer science and problem solving. 
-  I have a strong desire to learn and improve my abilities, and I'm happy to take on a challenge that involves picking up new skills.
+  I have a strong desire to learn and improve my abilities, and I love a challenge that involves picking up new skills.
   I'm a team player in a group setting, and am happy taking a leadership position to help solve the task at hand.`,
   aboutItems: [
     {label: 'Location', text: 'Wellesley, MA', Icon: MapIcon},
