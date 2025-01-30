@@ -97,7 +97,7 @@ export const heroData: Hero = {
     },
 
     {
-      href: 'shanemurray2004@gmail.com', //`#${SectionId.Contact}`,
+      href: 'mailto:shanemurray2004@gmail.com', //`#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
       target: '_self',
