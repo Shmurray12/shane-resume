@@ -15,6 +15,7 @@ import {homePageMeta} from '../data/data';
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 //Need to add testimonials at some point <Testemonials />
+//Need to finish contact form and add <Contact />
 const Home: FC = memo(() => {
   const {title, description} = homePageMeta;
   return (
@@ -24,7 +25,7 @@ const Home: FC = memo(() => {
       <About />
       <Resume />
       <Portfolio />
-      <Contact />
+
       <Footer />
     </Page>
   );

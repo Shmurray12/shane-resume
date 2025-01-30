@@ -116,7 +116,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Wellesley, MA', Icon: MapIcon},
     {label: 'Age', text: '21', Icon: CalendarIcon},
     {label: 'Nationality', text: 'US Citizen', Icon: FlagIcon},
-    {label: 'Interests', text: 'Basketball, Climbing, Hiking, Working out, Music', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Basketball, Climbing, Hiking, Working out, Music, Reading', Icon: SparklesIcon},
     {label: 'Study', text: 'Santa Clara University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Full Time Student', Icon: BuildingOffice2Icon},
   ],
