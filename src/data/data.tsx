@@ -95,8 +95,9 @@ export const heroData: Hero = {
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
+
     {
-      href: `#${SectionId.Contact}`,
+      href: 'shanemurray2004@gmail.com', //`#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
       target: '_self',
