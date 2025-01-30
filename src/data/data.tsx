@@ -73,10 +73,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Massachussets based, third year at <strong className="text-stone-100">Santa Clara University</strong>,
-        looking to further my abilities as a <strong className="text-stone-100">Software Developer </strong>
-        and <strong className="text-stone-100">Cybersecurity Engineer</strong> by pursuing a{' '}
-        <strong className="text-stone-100">bachelors in Computer Science</strong> with an emphasis on{' '}
+        I'm a Massachussets based, third year student at{' '}
+        <strong className="text-stone-100">Santa Clara University</strong>, specializing in{' '}
+        <strong className="text-stone-100">Software Developement </strong>
+        and <strong className="text-stone-100">Cybersecurity Engineering</strong> by pursuing a{' '}
+        <strong className="text-stone-100">bachelors degree in Computer Science</strong> with an emphasis on{' '}
         <strong className="text-stone-100">Cybersecurity</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -110,11 +111,11 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Since my first coding class in middle school, I've always had a passion for computer science and problem solving. 
   I have a strong desire to learn and improve my abilities, and I'm happy to take on a challenge that involves picking up new skills.
-  I'm very capable in a group setting, and have no issues taking a leadership position to help take on the task at hand.`,
+  I'm a team player in a group setting, and am happy taking a leadership position to help solve the task at hand.`,
   aboutItems: [
     {label: 'Location', text: 'Wellesley, MA', Icon: MapIcon},
     {label: 'Age', text: '21', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Irish / American', Icon: FlagIcon},
+    {label: 'Nationality', text: 'US Citizen', Icon: FlagIcon},
     {label: 'Interests', text: 'Basketball, Climbing, Hiking, Working out, Music', Icon: SparklesIcon},
     {label: 'Study', text: 'Santa Clara University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Full Time Student', Icon: BuildingOffice2Icon},
@@ -126,27 +127,18 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Spanish',
-        level: 2,
-      },
-    ],
-  },
-  {
     name: 'Frontend development',
     skills: [
       {
         name: 'React',
-        level: 6,
+        level: 7,
       },
       {
         name: 'Flutter',
+        level: 5,
+      },
+      {
+        name: 'Typescript',
         level: 5,
       },
     ],
@@ -268,8 +260,8 @@ export const education: TimelineItem[] = [
     content: (
       <p>
         At Santa Clara, I have been enrolled in rigorous courses covering a variety of topics within computer science.
-        I've taken upper-division classes in networks and automata. Alongside this I've taken lower level courses
-        covering object oriented programming, data structures, and advanced programming.
+        I've taken upper-division classes in networks and automata. I've taken specialized courses covering object
+        oriented programming, data structures, and advanced programming.
       </p>
     ),
   },
@@ -304,7 +296,7 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
- * Testimonial section
+ * Testimonial section -- Unfinished
  */
 
 export const testimonial: TestimonialSection = {
