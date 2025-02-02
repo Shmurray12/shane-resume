@@ -81,8 +81,8 @@ export const heroData: Hero = {
         <strong className="text-stone-100">Cybersecurity</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I love to play <strong className="text-stone-100">Basketball, Rock climb</strong>, go to
-        the <strong className="text-stone-100">gym</strong>, or go on <strong className="text-stone-100">hikes</strong>{' '}
+        In my free time time, I love to play <strong className="text-stone-100">Basketball, Rock Climb</strong>, go to
+        the <strong className="text-stone-100">Gym</strong>, or go on <strong className="text-stone-100">Hikes</strong>{' '}
         wherever I can find them.
       </p>
     </>
