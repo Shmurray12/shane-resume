@@ -148,11 +148,11 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Python',
-        level: 8,
+        name: 'C++',
+        level: 7,
       },
       {
-        name: 'C++',
+        name: 'Python',
         level: 6,
       },
       {
