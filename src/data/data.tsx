@@ -73,12 +73,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Massachussets based, third year student at{' '}
-        <strong className="text-stone-100">Santa Clara University</strong>, specializing in{' '}
-        <strong className="text-stone-100">Software Developement </strong>
-        and <strong className="text-stone-100">Cybersecurity Engineering</strong> by pursuing a{' '}
+        I'm a Massachussets based, fourth year student at{' '}
+        <strong className="text-stone-100">Santa Clara University</strong>, pursuing a{' '}
         <strong className="text-stone-100">bachelors degree in Computer Science</strong> with an emphasis on{' '}
-        <strong className="text-stone-100">Cybersecurity</strong>.
+        <strong className="text-stone-100">Cybersecurity</strong>. Using this technical background and my communication
+        skills, I'm persuing a career in tech sales. Whether it's explaining complex ideas clearly, or helping people or
+        businesses find the solution they need, my problem solving mindset, eagerness to build relationships, and my
+        technical background make me a qualified candidate.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, I love to play <strong className="text-stone-100">Basketball, Rock Climb</strong>, go to
